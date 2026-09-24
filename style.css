@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 10px;
+}
+.corpo{
+    text-align: center;
+    margin: 20px;
+    max-width: 900px;
+    width: 100%;
+    box-sizing: border-box;
+}
+h1{
+    font-family: Arial;
+}
+p{
+    text-align: left;
+    font-family: Arial;
+    font-size: 18px;
+    margin: 10px 0;
+}
