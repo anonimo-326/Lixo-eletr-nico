@@ -44,3 +44,24 @@ button{
 button:hover{
     background-color: darkgreen;
 }
+ul{
+    text-align: left;
+    font-family: Arial;
+    font-size: 18px;
+    margin: 10px 0;
+}
+li::marker{
+    font-size: 1.5em;
+}
+.vermelho::marker{
+    color: red;
+}
+.laranja::marker{
+    color: orange;
+}
+.azul::marker{
+    color: blue;
+}
+.verde::marker{
+    color: green;
+}
